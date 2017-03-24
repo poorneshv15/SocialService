@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="rvce.hackathon.socialservice.UserSignUpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/editTextHeight"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    app:errorEnabled="true"
+    app:errorTextAppearance="@style/TextAppearance.Design.Error">
+
+    <EditText
+        android:id="@+id/emailEt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Email"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editTextHeight"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/TextAppearance.Design.Error">
+
+        <EditText
+            android:id="@+id/nameEt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Name"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editTextHeight"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/TextAppearance.Design.Error">
+
+        <EditText
+            android:id="@+id/mobileEt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Mobile Number"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <Spinner
+
+        android:id="@+id/bloodGroupSpn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editTextHeight"
+        android:entries="@array/bloodGroup"/>
+
+
+
+</LinearLayout>

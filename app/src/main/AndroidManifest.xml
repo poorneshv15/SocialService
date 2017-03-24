@@ -25,6 +25,7 @@
             android:label="@string/title_activity_events"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".PostEventActivity"></activity>
+        <activity android:name=".SignUpActivity"></activity>
     </application>
 
 </manifest>
